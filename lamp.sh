@@ -33,7 +33,7 @@ install()
     $APTINSTALL apache2
     $APTINSTALL php7.0 php7.0-curl php7.0-gd php7.0-fpm php7.0-cli php7.0-opcache \
                 php7.0-mbstring php7.0-xml php7.0-zip php7.0-fileinfo php7.0-ldap \
-                php7.0-intl libmagickcore-6.q16-2-extra php7.0-imagick php-mcrypt
+                php7.0-intl libmagickcore-6.q16-2-extra php-imagick php-mcrypt
     mkdir -p /run/php
 
     # mariaDB password
